@@ -1,8 +1,9 @@
-import requests 
+﻿import requests 
 from bs4 import BeautifulSoup
 import re
 from datetime import timedelta,date
 import xlsxwriter
+
 
 amirxlsx = xlsxwriter.Workbook('amir2.xlsx',{'strings_to_numbers':True})
 
